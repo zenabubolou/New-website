@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- this link was gotten from google font.com, select the once i needed, copied and paste here.
+     this is for css poppins, to make tje nav-links more appealing.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/602991c77e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <!--placing the logo on the html document-->
+            <a href="website.html"><img src="images2/logo.png" alt=""></a>
+            <div class="nav-links">
+                <i class="fa-solid fa-xmark"></i> 
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+        <!--we createva div for the content of the web page-->
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making websites is now the easiest thing to do. Just learn html, css and Javascript.</p>
+            <a href="" class="hero-btn">Visit us for more</a>
+        </div>
+    </section><!--I need to complete the header section-->
+
+    <!--New section for Course-->
+    <section class="courses">
+        <h1>Courses we offer</h1>
+        <p>Technology, Engineering, Education and Sciences</p>
+
+        <!--creating a div for the different course content-->
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>The level of this course help in preparing student with practical concept to excel in their field.most people are fully equiped.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>This program spans five years and student are given real world training to fit i any company of choice.The degree is well recognised.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-graduate</h3>
+                <p>Program at this level is for advanced concept for various field.The training is very rigorious and spans two years.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- campus section-->
+    <section  class="campus">
+        <h1>Our Global Campus</h1>
+        <p>The most adorable campus in the universe</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images2/london.png" alt="">
+                <div class="layer">                <!--this div apply name on image-->
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images2/newyork.png" alt="">
+                <div class="layer">                <!--this div apply name on image-->
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images2/washington.png" alt="">
+                <div class="layer">                <!--this div apply name on image-->
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--facility section-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The most adorable campus in the universe</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images2/library.png" alt="">
+                <h3>World class library</h3>
+                <p>We have the best library facilities in the world.Our library is very condusive thereby enhancing student learning experience</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images2/basketball.png" alt="">
+                <h3>Largest play-ground</h3>
+                <p>We have the best play-ground in the world.Our play-ground enhances student learning experience</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images2/cafeteria.png" alt="">
+                <h3>Tasty and Healthy</h3>
+                <p>We give our student tasty and healthy meals, thereby enhancing student learning experience</p>
+            </div>
+        </div> 
+    </section>
+    <!--testimonials section-->
+
+    <section class="testimonials">
+        <h1>What our students says</h1>
+        <p>These are various testimonies from our students.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images2/user1.jpg">
+                <div>
+                    <p>I am very happy to gain admission inti this university. The learning enviroment is<br>
+                    so conducive and entertaining.The lecturers are alsome.</p>
+                    <h3>Jane</h3>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                    
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images2/user2.jpg">
+                <div>
+                    <p>I am very happy to gain admission inti this university. The learning enviroment is<br>
+                    so conducive and entertaining.The lecturers are alsome.</p>
+                    <h3>James</h3>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--call to action section-->
+    <section class="cta">
+        <h1>Enrol lfor our online courses<br> from anywhere in the world</h1>
+        <a href="" class="hero-btn">CONTACT US</a> <!--the hero-btn class added change the link to botton-->
+    </section>
+
+</body>
+</html>
