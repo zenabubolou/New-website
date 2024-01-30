@@ -18,8 +18,8 @@
         <nav>
             <!--placing the logo on the html document-->
             <a href="website.html"><img src="images2/logo.png" alt=""></a>
-            <div class="nav-links">
-                <i class="fa-solid fa-xmark"></i> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
         <!--we createva div for the content of the web page-->
         <div class="text-box">
@@ -147,9 +147,38 @@
     </section>
     <!--call to action section-->
     <section class="cta">
-        <h1>Enrol lfor our online courses<br> from anywhere in the world</h1>
+        <h1>Enroll for our online courses<br> from anywhere in the world</h1>
         <a href="" class="hero-btn">CONTACT US</a> <!--the hero-btn class added change the link to botton-->
     </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a trusted and reliable Institution. Our student are know world wide because of their excellance.<br>We are proud of abilities to 
+            deliver quality and industry standard knowledge that can stand the test of time.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made with<i class="fa fa-heart-o" >by Easy Tutorials</i> </p>
+    </section>
+
+    <!--javascript for both times and bar icon-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+    </script>
+
 
 </body>
 </html>
